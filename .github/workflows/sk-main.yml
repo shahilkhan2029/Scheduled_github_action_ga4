@@ -17,4 +17,4 @@ jobs:
           git commit -m "Daily commit $(date)"
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.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 }}
