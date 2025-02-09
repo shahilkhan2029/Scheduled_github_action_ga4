@@ -13,11 +13,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Create a Commit (23f2005275@ds.study.iitm.ac.in)
+      - name: Create a Commit (23f2005068@ds.study.iitm.ac.in)
         run: |
           echo "Last run: $(date)" > last-run.txt
           git config --global user.name "GitHub Action"
-          git config --global user.email "23f2005275@ds.study.iitm.ac.in"
+          git config --global user.email "23f2005068@ds.study.iitm.ac.in"
           git add last-run.txt
           git commit -m "Automated commit from GitHub Action"
           git push
