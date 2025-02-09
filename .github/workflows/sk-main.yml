@@ -8,7 +8,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "23f2005275@ds.study.iitm.ac.in"
+          git config --global user.email "23f2005068@ds.study.iitm.ac.in"
 
       - name: Make a Change
         run: |
